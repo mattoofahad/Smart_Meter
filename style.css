@@ -1,0 +1,23 @@
+li{
+	list-style: none;
+	display: inline-block;
+	font-size: 2em;
+}
+ul {
+	text-align: left;
+}
+body {
+	background-image: url(https://images.unsplash.com/photo-1519750783826-e2420f4d687f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+	background-size: cover; 
+}
+footer{
+	clear: both;
+	text-align: left;
+}
+h6{
+	font-size: 4em;
+	background-color: white;
+	max-width: 300px;
+  	border: 3px solid red;
+  	margin: 20px;
+}

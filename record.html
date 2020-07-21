@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Your Record</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	    <script>
+        function showImg() {
+            document.getElementById("map_img").style.display = "";
+        }
+    </script>
+</head>
+<body>
+	<header>
+	    <nav>
+	      <ul>
+	        <li><a href="index.html">Home</a></li>
+	        <li>Record</li>
+	        <li><a href="prediction.html">Prediction</a></li>
+	      </ul>
+	    </nav>
+	</header>
+	<div>
+	<h3>Select month:</h3>
+	<form>
+		Enter the month name: <input type="text" name="monthname">
+	</form>
+	<img id="map_img" src="meter7.jpg" style="display: none;" width="400" height="400"/>
+    <input type="submit" id="Map" value="Okay" onclick="showImg()"/>
+	<footer>We care.</footer>
+</body>
+</html>
