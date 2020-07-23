@@ -2,9 +2,11 @@
 <html>
 <head>
 	<title>Home page</title>
+	<meta http-equiv="refresh" content="5">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<div><p><?php include('file.txt'); ?></p></div>
 	<header>
 	    <nav>
 	      <ul>
@@ -19,9 +21,10 @@
 	</header>
 	<section>
 		<h1>Current reading of your meter</h1>
-		<img src="meter7.jpg" width="400px" height="300px" alt="Meter picture">
+		<img src="image.bmp" width="400px" height="300px" alt="Meter picture">
 		<h1>Current reading in digits</h1>
-		<p><h6>03692 546</h6></p>
+		<!-- <p><h6>999999</h6></p> -->
+		<object data="doc.txt" width="100" height="20" >Not supported</object>
 	</section>
 
 	<footer>We are Engineers @ Embedded Project.</footer>

@@ -40,12 +40,20 @@ footer{
 	text-align: left;
 }
 h6{
-	font-size: 4em;
+	font-size: 5em;
 	background-color: white;
 	max-width: 300px;
   	border: 3px solid red;
   	margin: 20px;
 	padding:  0px 50px;
+}
+object {
+    font-size: 5em;
+    background-color: white;
+    max-width: 300px;
+    border: 3px solid red;
+    margin: 30px;
+    padding:  10px 50px;
 }
 video {
 	padding: 0px 50px 50px 50px;
